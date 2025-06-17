@@ -1,0 +1,48 @@
+# Kotlin/Java build
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Gradle properties
+gradle.properties
+**/gradle.properties
+
+# Kotlin specific
+out/
+bin/
+
+# IntelliJ / JetBrains IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# GitHub Actions
+# (No specific ignores needed unless caching build artifacts)
+
+# Dependency caches
+**/.mvn/
+**/.gradle/
+**/build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore compiled outputs in nested project
+/projects/gradle-shared-config/build/
